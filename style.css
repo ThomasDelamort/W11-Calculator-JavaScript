@@ -14,7 +14,7 @@ body {
     height: 540px;
     background: #1f1f1f;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    box-shadow: 30px 10px 30px rgba(0,0,0,0.3);
     overflow: hidden;
     display: flex;
     flex-direction: column;
