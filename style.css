@@ -14,7 +14,7 @@ body {
     height: 540px;
     background: #1f1f1f;
     border-radius: 12px;
-    box-shadow: 30px 10px 30px rgba(0,0,0,0.3);
+    box-shadow: 30px 10px 30px rgba(0, 0, 0, 0.608);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -67,13 +67,31 @@ button {
 }
 
 .lightgrey:hover {
-    background-color: rgb(50, 50, 50);
+    /* background-color: rgb(50, 50, 50); */
+    background-color: hsl(0, 0%, 20%);
 }
 
 .darkgrey:hover {
-    background-color: rgb(59, 59, 59);
+    /* background-color: rgb(59, 59, 59); */
+    background-color: hsl(0, 0%, 23%);
 }
 
 .equals:hover {
-    background-color: rgb(205, 145, 218);
+    /* background-color: rgb(205, 145, 218); */
+    background-color: hsl(298, 50%, 71%);
+}
+
+.lightgrey:active {
+    background-color: hsl(0, 0%, 30%);
+    transform: scale(0.85);
+}
+
+.darkgrey:active {
+    background-color: hsl(0, 0%, 33%);
+    transform: scale(0.85);
+}
+
+.equals:active {
+    background-color: hsl(298, 50%, 81%);
+    transform: scale(0.85);
 }
